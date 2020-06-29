@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [loginparameters]">
+  <test thread-count="5" name="WeatherTechTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.weathertech.alltests.TESTS">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setExtend"/>
+          <include name="loginTest001"/>
+          <include name="endReport"/>
+          <include name="regTest003"/>
+        </methods>
+      </class> <!-- com.weathertech.alltests.TESTS -->
+    </classes>
+  </test> <!-- WeatherTechTests(failed) -->
+</suite> <!-- Failed suite [loginparameters] -->

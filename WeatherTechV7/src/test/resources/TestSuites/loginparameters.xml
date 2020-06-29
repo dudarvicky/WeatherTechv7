@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="loginparameterssuite" verbose="1" parallel="tests" thread-count="6">
+
+
+	<test name="LoginTest1-CH">
+		<parameter name="email" value="Bobtest1@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test> 
+	
+	<test name="LoginTest1-FF">
+		<parameter name="email" value="Bobtest1@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest2-CH">
+		<parameter name="email" value="Billtest2@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest2-FF">
+		<parameter name="email" value="Billtest2@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest3-CH">
+		<parameter name="email" value="Johntest3@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest3-FF">
+		<parameter name="email" value="Johntest3@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest4-CH">
+		<parameter name="email" value="Roytest4@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+	<test name="LoginTest4-FF">
+		<parameter name="email" value="Roytest4@abc6.com"></parameter>
+		<parameter name="password" value="Testweathertech123"></parameter>
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    <class name="com.weathertech.loginpagetests.loginparameters" />
+		</classes>
+	</test>
+	
+
+
+</suite>
