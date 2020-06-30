@@ -22,6 +22,8 @@
 		</classes>
 	</test>
 	
+	
+	
 	<test name="LoginTest2-CH">
 		<parameter name="email" value="Billtest2@abc6.com"></parameter>
 		<parameter name="password" value="Testweathertech123"></parameter>
@@ -77,5 +79,5 @@
 	</test>
 	
 
-
+ 
 </suite>
