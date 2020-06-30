@@ -29,8 +29,8 @@ public class TESTS extends BaseTest {
 		LoginPage lp = mp.clickMyAccountIcon();
 
 		// Execute login
-//		MyAccountPage map = lp.logIn("romdudar@gmail.com", "1qazxsw2"); 
-		MyAccountPage map = lp.logIn("romdudar@gmail.com", "1qazxsw22www"); 
+		MyAccountPage map = lp.logIn("romdudar@gmail.com", "1qazxsw2"); 
+//		MyAccountPage map = lp.logIn("romdudar@gmail.com", "1qazxsw22www"); 
 
 		
 		
@@ -108,7 +108,7 @@ public class TESTS extends BaseTest {
 		log.info("Assertions completed");
 		}
 	
-	@Test
+	@Test(enabled=false)
 	public void loginTest004() {
 		
 		log.info("Starting [emplty field password] login test");
@@ -138,7 +138,7 @@ public class TESTS extends BaseTest {
 		}
 	
 
-	@Test
+	@Test(enabled=false)
 	public void socMedLinksTest001() {
 		
 		
@@ -157,7 +157,7 @@ public class TESTS extends BaseTest {
 
  }
 	
-	@Test
+	@Test(enabled=false)
 	public void socMedLinksTest002() {
 		
 		
@@ -176,7 +176,7 @@ public class TESTS extends BaseTest {
 
  }
 	
-	@Test
+	@Test(enabled=false)
 	public void socMedLinksTest003() {
 		
 		
@@ -196,7 +196,7 @@ public class TESTS extends BaseTest {
 
  }
 	
-	@Test
+	@Test(enabled=false)
 	public void socMedLinksTest004() {
 		
 		
@@ -218,7 +218,7 @@ public class TESTS extends BaseTest {
 
 
 	
-	@Test
+	@Test(enabled=false)
 	public void regTest001() {
 		
 		log.info("Starting [Positive] registration test");
@@ -261,7 +261,7 @@ public class TESTS extends BaseTest {
 		log.info("Assertions completed");
 		}
 	
-	@Test
+	@Test(enabled=false)
 	public void regTest002() {
 		
 		log.info("Starting [Incorrect confirm password] registration test");
@@ -300,7 +300,7 @@ public class TESTS extends BaseTest {
 		log.info("Assertions completed");
 		}
 	
-	@Test
+	@Test(enabled=false)
 	public void regTest003() {
 		
 		log.info("Starting [Empty lastname field] registration test");
