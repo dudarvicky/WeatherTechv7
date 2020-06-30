@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="11" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="loginparameters" duration-ms="124335" started-at="2020-06-29T18:34:56Z" finished-at="2020-06-29T18:37:01Z">
+  <suite name="loginparameterssuite" duration-ms="36256" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:33Z">
     <groups>
     </groups>
-    <test name="WeatherTechTests" duration-ms="124335" started-at="2020-06-29T18:34:56Z" finished-at="2020-06-29T18:37:01Z">
-      <class name="com.weathertech.alltests.TESTS">
-        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setExtend" is-config="true" duration-ms="145" started-at="2020-06-29T18:34:56Z" finished-at="2020-06-29T18:34:57Z">
+    <test name="LoginTest1-CH" duration-ms="18609" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:15Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008]" name="setExtend" is-config="true" duration-ms="268" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtend -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5995" started-at="2020-06-29T18:34:57Z" finished-at="2020-06-29T18:35:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008]" name="setUp" is-config="true" duration-ms="6567" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
           <params>
             <param index="0">
               <value>
@@ -20,438 +20,430 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
+                <![CDATA[org.testng.TestRunner@2d6eabae]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="loginTest001" duration-ms="3607" started-at="2020-06-29T18:35:03Z" finished-at="2020-06-29T18:35:06Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://www.weathertech.com/my-account/] but found [https://www.weathertech.com/my-account/login/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://www.weathertech.com/my-account/] but found [https://www.weathertech.com/my-account/login/]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.weathertech.alltests.TESTS.loginTest001(TESTS.java:39)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest001 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="1289" started-at="2020-06-29T18:35:06Z" finished-at="2020-06-29T18:35:07Z">
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008]" name="loginP" duration-ms="10619" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest001 status=FAILURE method=TESTS.loginTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5223" started-at="2020-06-29T18:35:07Z" finished-at="2020-06-29T18:35:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Bobtest1@abc6.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
+                <![CDATA[Testweathertech123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="loginTest002" duration-ms="4268" started-at="2020-06-29T18:35:13Z" finished-at="2020-06-29T18:35:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="630" started-at="2020-06-29T18:35:17Z" finished-at="2020-06-29T18:35:18Z">
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008]" name="tearDown" is-config="true" duration-ms="784" started-at="2020-06-30T16:49:14Z" finished-at="2020-06-30T16:49:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest002 status=SUCCESS method=TESTS.loginTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5208" started-at="2020-06-29T18:35:18Z" finished-at="2020-06-29T18:35:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="loginTest003" duration-ms="3916" started-at="2020-06-29T18:35:23Z" finished-at="2020-06-29T18:35:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest003 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="644" started-at="2020-06-29T18:35:27Z" finished-at="2020-06-29T18:35:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest003 status=SUCCESS method=TESTS.loginTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5204" started-at="2020-06-29T18:35:27Z" finished-at="2020-06-29T18:35:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest004()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="loginTest004" duration-ms="3973" started-at="2020-06-29T18:35:33Z" finished-at="2020-06-29T18:35:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest004 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="637" started-at="2020-06-29T18:35:37Z" finished-at="2020-06-29T18:35:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest004 status=SUCCESS method=TESTS.loginTest004()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5188" started-at="2020-06-29T18:35:37Z" finished-at="2020-06-29T18:35:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="regTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="regTest001" duration-ms="6516" started-at="2020-06-29T18:35:42Z" finished-at="2020-06-29T18:35:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regTest001 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="659" started-at="2020-06-29T18:35:49Z" finished-at="2020-06-29T18:35:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=regTest001 status=SUCCESS method=TESTS.regTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5222" started-at="2020-06-29T18:35:50Z" finished-at="2020-06-29T18:35:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="regTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="regTest002" duration-ms="6385" started-at="2020-06-29T18:35:55Z" finished-at="2020-06-29T18:36:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regTest002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="665" started-at="2020-06-29T18:36:01Z" finished-at="2020-06-29T18:36:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=regTest002 status=SUCCESS method=TESTS.regTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5239" started-at="2020-06-29T18:36:02Z" finished-at="2020-06-29T18:36:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="regTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="regTest003" duration-ms="11977" started-at="2020-06-29T18:36:07Z" finished-at="2020-06-29T18:36:19Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='errorDetails'] (tried for 5 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='errorDetails'] (tried for 5 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.weathertech.pages.BasePageObject.waitFor(BasePageObject.java:84)
-at com.weathertech.pages.BasePageObject.waitForVisibilityOf(BasePageObject.java:95)
-at com.weathertech.pages.BasePageObject.find(BasePageObject.java:42)
-at com.weathertech.pages.RegistrationPage.getErrorDetailsText(RegistrationPage.java:101)
-at com.weathertech.alltests.TESTS.regTest003(TESTS.java:340)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='errorDetails']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-9IQBETH', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regTest003 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="999" started-at="2020-06-29T18:36:19Z" finished-at="2020-06-29T18:36:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=regTest003 status=FAILURE method=TESTS.regTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5215" started-at="2020-06-29T18:36:20Z" finished-at="2020-06-29T18:36:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="socMedLinksTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="socMedLinksTest001" duration-ms="3199" started-at="2020-06-29T18:36:25Z" finished-at="2020-06-29T18:36:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- socMedLinksTest001 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-06-29T18:36:28Z" finished-at="2020-06-29T18:36:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=socMedLinksTest001 status=SUCCESS method=TESTS.socMedLinksTest001()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5273" started-at="2020-06-29T18:36:29Z" finished-at="2020-06-29T18:36:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="socMedLinksTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="socMedLinksTest002" duration-ms="4170" started-at="2020-06-29T18:36:34Z" finished-at="2020-06-29T18:36:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- socMedLinksTest002 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="681" started-at="2020-06-29T18:36:39Z" finished-at="2020-06-29T18:36:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=socMedLinksTest002 status=SUCCESS method=TESTS.socMedLinksTest002()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5297" started-at="2020-06-29T18:36:39Z" finished-at="2020-06-29T18:36:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="socMedLinksTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="socMedLinksTest003" duration-ms="4867" started-at="2020-06-29T18:36:45Z" finished-at="2020-06-29T18:36:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- socMedLinksTest003 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="637" started-at="2020-06-29T18:36:49Z" finished-at="2020-06-29T18:36:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=socMedLinksTest003 status=SUCCESS method=TESTS.socMedLinksTest003()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="setUp" is-config="true" duration-ms="5236" started-at="2020-06-29T18:36:50Z" finished-at="2020-06-29T18:36:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@697d6ded]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="socMedLinksTest004()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="socMedLinksTest004" duration-ms="4587" started-at="2020-06-29T18:36:55Z" finished-at="2020-06-29T18:37:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- socMedLinksTest004 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="tearDown" is-config="true" duration-ms="656" started-at="2020-06-29T18:37:00Z" finished-at="2020-06-29T18:37:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=socMedLinksTest004 status=SUCCESS method=TESTS.socMedLinksTest004()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.alltests.TESTS@271053e1]" name="endReport" is-config="true" duration-ms="236" started-at="2020-06-29T18:37:01Z" finished-at="2020-06-29T18:37:01Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4f7d0008]" name="endReport" is-config="true" duration-ms="346" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.weathertech.alltests.TESTS -->
-    </test> <!-- WeatherTechTests -->
-  </suite> <!-- loginparameters -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest1-CH -->
+    <test name="LoginTest2-CH" duration-ms="18612" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:15Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd]" name="setExtend" is-config="true" duration-ms="265" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd]" name="setUp" is-config="true" duration-ms="6643" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6895a785]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd]" name="loginP" duration-ms="10332" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Billtest2@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd]" name="tearDown" is-config="true" duration-ms="734" started-at="2020-06-30T16:49:14Z" finished-at="2020-06-30T16:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@192b07fd]" name="endReport" is-config="true" duration-ms="607" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest2-CH -->
+    <test name="LoginTest3-CH" duration-ms="19439" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:16Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b]" name="setExtend" is-config="true" duration-ms="267" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b]" name="setUp" is-config="true" duration-ms="6608" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@64729b1e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b]" name="loginP" duration-ms="11499" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johntest3@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b]" name="tearDown" is-config="true" duration-ms="850" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@31dc339b]" name="endReport" is-config="true" duration-ms="190" started-at="2020-06-30T16:49:16Z" finished-at="2020-06-30T16:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest3-CH -->
+    <test name="LoginTest1-FF" duration-ms="28313" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:25Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e]" name="setExtend" is-config="true" duration-ms="266" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e]" name="setUp" is-config="true" duration-ms="6116" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@48503868]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e]" name="loginP" duration-ms="19051" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bobtest1@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e]" name="tearDown" is-config="true" duration-ms="2737" started-at="2020-06-30T16:49:22Z" finished-at="2020-06-30T16:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@29ca901e]" name="endReport" is-config="true" duration-ms="116" started-at="2020-06-30T16:49:25Z" finished-at="2020-06-30T16:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest1-FF -->
+    <test name="LoginTest3-FF" duration-ms="28962" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:26Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d]" name="setExtend" is-config="true" duration-ms="268" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d]" name="setUp" is-config="true" duration-ms="6083" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e7dc304]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d]" name="loginP" duration-ms="19548" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johntest3@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d]" name="tearDown" is-config="true" duration-ms="2945" started-at="2020-06-30T16:49:22Z" finished-at="2020-06-30T16:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@4e1d422d]" name="endReport" is-config="true" duration-ms="92" started-at="2020-06-30T16:49:25Z" finished-at="2020-06-30T16:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest3-FF -->
+    <test name="LoginTest2-FF" duration-ms="29937" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:26Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318]" name="setExtend" is-config="true" duration-ms="266" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318]" name="setUp" is-config="true" duration-ms="6116" started-at="2020-06-30T16:48:57Z" finished-at="2020-06-30T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@10bbd20a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318]" name="loginP" duration-ms="21241" started-at="2020-06-30T16:49:03Z" finished-at="2020-06-30T16:49:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Billtest2@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318]" name="tearDown" is-config="true" duration-ms="2125" started-at="2020-06-30T16:49:24Z" finished-at="2020-06-30T16:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@6e1ec318]" name="endReport" is-config="true" duration-ms="162" started-at="2020-06-30T16:49:26Z" finished-at="2020-06-30T16:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest2-FF -->
+    <test name="LoginTest4-CH" duration-ms="14599" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:30Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b]" name="setExtend" is-config="true" duration-ms="3" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b]" name="setUp" is-config="true" duration-ms="5527" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@56aac163]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b]" name="loginP" duration-ms="7740" started-at="2020-06-30T16:49:21Z" finished-at="2020-06-30T16:49:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roytest4@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b]" name="tearDown" is-config="true" duration-ms="1251" started-at="2020-06-30T16:49:28Z" finished-at="2020-06-30T16:49:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5383967b]" name="endReport" is-config="true" duration-ms="74" started-at="2020-06-30T16:49:30Z" finished-at="2020-06-30T16:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest4-CH -->
+    <test name="LoginTest4-FF" duration-ms="17614" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:33Z">
+      <class name="com.weathertech.loginpagetests.loginparameters">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0]" name="setExtend" is-config="true" duration-ms="3" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0]" name="setUp" is-config="true" duration-ms="5244" started-at="2020-06-30T16:49:15Z" finished-at="2020-06-30T16:49:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@184f6be2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0]" name="loginP" duration-ms="9699" started-at="2020-06-30T16:49:20Z" finished-at="2020-06-30T16:49:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roytest4@abc6.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testweathertech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0]" name="tearDown" is-config="true" duration-ms="2577" started-at="2020-06-30T16:49:30Z" finished-at="2020-06-30T16:49:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginP status=SUCCESS method=loginparameters.loginP(java.lang.String, java.lang.String)[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.weathertech.loginpagetests.loginparameters@5abca1e0]" name="endReport" is-config="true" duration-ms="87" started-at="2020-06-30T16:49:33Z" finished-at="2020-06-30T16:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.weathertech.loginpagetests.loginparameters -->
+    </test> <!-- LoginTest4-FF -->
+  </suite> <!-- loginparameterssuite -->
 </testng-results>
